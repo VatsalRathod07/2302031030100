@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtuality - Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+    <!-- FONTS -->
+    <link href="https://api.fontshare.com/v2/css?f[]=clash-grotesk@400,300,500&display=swap" rel="stylesheet">
+    <!-- ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <section class="main">
+        <nav class="navbar">
+            <a href="." class="logo">
+                <h1>Virtuality</h1>
+            </a>
+
+            <div class="nav_links">
+                <a href="./index.html">Home</a>
+                <a href="/series.html">Series</a>
+                <a href="/articles.html">Articles</a>
+                <a href="/bts.html">BTS</a>
+                <a href="/community.html">Community</a>
+                <a href="/about.html">About</a>
+            </div>
+
+            <a href="/profile.html">
+                <img src="./img/21.svg" alt="" class="user_profile">
+            </a>
+        </nav>
+
+        <div id="profile_container">
+            <div class="profile_menu">
+                <div class="profile">
+                    <img src="./img/21.svg" alt="">
+                    <div>
+                        <h3>Hello,</h3>
+                        <p>Vatsal Rathod</p>
+                    </div>
+                </div>
+                <div class="general_settings">
+                    <h1>General</h1>
+
+                    <div class="settings">
+                        <p>Account</p>
+                        <p>Membership Plan</p>
+                        <p>Preference</p>
+                        <p>Email Notification</p>
+                        <p>Change Email</p>
+                        <p>Change Password</p>
+                        <p>My Devices</p>
+                    </div>
+                </div>
+                <div class="purchases">
+                    <h1>Purchases & Credit</h1>
+
+                    <div class="settings">
+                        <p>Order History</p>
+                        <p>Payment Methods</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile_content">
+                <div class="profile_image">
+                    <input type="file" name="profile-image" id="profile-image-input" hidden onchange="displayImage(this)">
+                    <label for="profile-image-input">
+                        <img src="./img/21.svg" alt="Upload Image" id="profile-image" style="cursor: pointer;">
+                    </label>
+                </div>
+
+                <div class="user_details">
+                    <h1>Contact Details</h1>
+
+                    <div class="user_details-form">
+                        <div class="name-input">
+                            <div>
+                                <label for="">First Name</label>
+                                <input type="text" name="" id="" placeholder="Vatsal">
+                            </div>
+                            <div>
+                                <label for="">Last Name</label>
+                                <input type="text" name="" id="" placeholder="Rathod">
+                            </div>
+                        </div>
+
+                        <div class="contact-input">
+                            <div>
+                                <label for="">Phone Number</label>
+                                <input type="tel" name="" id="" placeholder="+91  7400714901">
+                            </div>
+                            <div>
+                                <label for="">Email</label>
+                                <input type="email" name="" id="" placeholder="vatsal@gmail.com">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="save-btn">Save Changes</button>
+                </div>
+
+                <div class="account_overview">
+                    <div class="accounts">
+                        <h1>Account Overview</h1>
+
+                        <table>
+                            <tr>
+                                <th>Email</th>
+                                <th>Password</th>
+                                <th>Status</th>
+                                <th>Primary</th>
+                                <th>Action</th>
+                            </tr>
+
+                            <tr>
+                                <td>vatsal@gmail.com</td>
+                                <td>******</td>
+                                <td class="status-verified">verified</td>
+                                <td><i class="ri-check-double-line"></i></td>
+                                <td><i class="ri-settings-line"></i></td>
+                            </tr>
+
+                            <tr>
+                                <td>thats.bro@gmail.com</td>
+                                <td>******</td>
+                                <td class="status-unverified">un-verified</td>
+                                <td></td>
+                                <td><i class="ri-settings-line"></i></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+               <div class="delete_account">
+                    <p>If you wish to delete your account, please be aware that this action is irreversible and will result in the loss of all your data.</p>
+                    <button class="delete_account_button">Delete Account</button>
+               </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <p class="copyright">&copy;2024-2030 Virtuality | All Rights Reserved</p>
+        </footer>
+    </section>
+</body>
+</html>
